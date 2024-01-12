@@ -1,0 +1,2 @@
+# chatgpt_translations
+使用了chatgpt非官方接口的自动双语脚本
