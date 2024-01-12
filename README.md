@@ -20,7 +20,7 @@ _✨ 使用了chatgpt非官方接口的自动双语脚本 ✨_
 
 虽然原版说`翻译的文本可以是 .md、txt、pdf等文件`，但是我没有对pdf进行任何的调试，不确定是否有问题，所以有条件的可以更改。
 
-欢迎提[Pr](https://github.com/Constellent/chatgpt_translations/pulls)。
+欢迎大家提[PR](https://github.com/Constellent/chatgpt_translations/pulls)，来改正此脚本该有的问题或者改进脚本。
 
 ## 使用教程
 
