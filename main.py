@@ -21,9 +21,11 @@ data = {
 # 配置文件
 config = {
     # Debug
-    "Debug": False,
+    "Debug": True,
     # 翻译的时候是否下一行
     "AutoLineFeed": True,
+    # 保留原文
+    "KeepTheOriginaltext": False,
     # 原文语种
     "source": "auto",
     # 目标翻译
@@ -79,7 +81,9 @@ for i, segment in enumerate(segments):
 
     # 翻译
     response = get_completion(segment)
-    translated_segments.append(segment)
+
+    if (config["KeepTheOriginaltext"]):
+        translated_segments.append(segment)
     translated_segments.append(response)
 
     # 当翻译完后立刻换行
